@@ -1,6 +1,6 @@
 <?php
 /**
-* webterminal 
+* kodexplorer
 * @package project
 * @author Wizard <sergejey@gmail.com>
 * @copyright http://majordomo.smartliving.ru/ (c)
@@ -8,7 +8,7 @@
 */
 //
 //
-class webconsole extends module {
+class kodexplorer extends module {
 /**
 * webterminal
 *
@@ -16,9 +16,9 @@ class webconsole extends module {
 *
 * @access private
 */
-function webconsole() {
-  $this->name="webconsole";
-  $this->title="WebConsole";
+function kodexplorer() {
+  $this->name="kodexplorer";
+  $this->title="kodexplorer";
   $this->module_category="<#LANG_SECTION_SYSTEM#>";
   $this->checkInstalled();
 }
