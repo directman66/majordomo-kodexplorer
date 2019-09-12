@@ -163,6 +163,11 @@ function usual(&$out) {
  function install($data='') {
   parent::install();
  }
+
+ function uninstall() {
+ parent::uninstall();
+ }
+
 // --------------------------------------------------------------------
 }
 /*
