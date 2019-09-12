@@ -83,7 +83,7 @@ $config['settingDefault'] = array(
 	'theme'				=> "win10",		// app theme [mac,win7,win10,metro,metro_green,alpha]
 	'wall'				=> "8",			// wall picture
 	"fileRepeat"		=> "replace",	// rename,replace,skip
-	"recycleOpen"		=> "1",			// 1 | 0 代表是否开启
+	"recycleOpen"		=> "0",			// 1 | 0 代表是否开启
 	'resizeConfig'		=> 
 		'{"filename":250,"filetype":80,"filesize":80,"filetime":215,"editorTreeWidth":200,"explorerTreeWidth":200}'
 );
